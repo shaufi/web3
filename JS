@@ -1,0 +1,115 @@
+1. JavaScript adalah bahasa pemograman web yang bersifat Client Side Programming Language. 
+   Client Side Programming Language adalah tipe bahasa pemograman yang pemrosesannya dilakukan oleh client.
+   Aplikasi client yang dimaksud merujuk kepada web browser seperti Google Chrome dan Mozilla Firefox.
+   Perbedaan 
+   Javascript:
+   Diinterpretasikan oleh client.  
+   Kodenya berintegrasi dalam dokument HTML.
+   Tipe variabel data tidak dideklarasikan.
+   Bekerja terbatas pada element HTML.
+   Mampu mengakses objek dan fungsionalitas browser.
+   Berbasis objek (Object-Based Programming). Tidak terdapat kelas dan pewarisan.
+
+   Java:
+   Dikompilasi dan dijalankan oleh client.
+   Hasilnya berupa Applet yang dipanggil dalam dokument HTML.
+   Tipe variabel data harus dideklarasikan.
+   Tidak mampu mengakses objek dan fungsionalitas browser.
+   Berorientasi objek (Object Oriented Programming). Applet berisi kelas objek dengan pewarisan.
+
+2. Menggunakan tag <script> (internal JavaScript)
+   penulisan: 
+   <script>
+   alert("Hello World!!");
+   </script>
+   Menggunakan tag <script scr=””> (external JavaScript)
+   penulisan:
+   <script src="kode_javascript.js"></script>
+   Menggunakan Event Handler (Inline JavaScript)
+   penulisan:
+   <button onclick="alert('Hello World!!')">Klik Saya
+   Menggunakan URL (href:=”javascript:”) 
+   penulisan:
+   <a href="javascript:alert('Hello World!!')">Hallo Dunia...</a>
+   
+3. Event	Description
+  abort	Occurs when the user cancels loading of an image
+  blur	Occurs when input focus is removed from a form element (when the user clicks outside a field) or focus is removed from a window
+  click	Occurs when the user clicks on a link or form element
+  change	Occurs when the value of a form field is changed by the user
+  error	Occurs when an error happens during loading of a document or image
+  focus	Occurs when input focus is given to a form element or a window
+  load	Occurs when a page is loaded into Navigator
+  mouseout	Occurs when the user moves the pointer off of a link or clickable area of an image map
+  mouseover	Occurs when the user moves the pointer over a hypertext link
+  reset	Occurs when the user clears a form using the Reset button
+  select	Occurs when the user selects a form element's field
+  submit	Occurs when a form is submitted (i.e., when the user clicks on a submit button)
+  unload	Occurs when the user leaves a page
+
+4. Booleans can be objects (or primitive data treated as objects)
+   Numbers can be objects (or primitive data treated as objects)
+   Strings can be objects (or primitive data treated as objects)
+   Dates are always objects
+   Maths are always objects
+   Regular expressions are always objects
+   Arrays are always objects
+   Functions are always objects
+   Objects are objects
+   
+   
+5. var gadisku; –> membuat variabel dg nama ‘gadisku’. implisit
+   var test = “halo”
+
+6. Number() converts to a Number
+   String() converts to a String 
+   Boolean() converts to a Boolean.
+   
+7. <html>
+   <head>
+	    <title>Perhitungan Volume Tabung</title>
+  </head>
+  <body>
+	      <script language= "Javascript">
+    	  const Phi = 3.14
+    	  var r = 3;
+    	  var t = 25;
+    	  var Volume_Tabung;
+        Volume_Tabung = Phi * r * r * t;
+		    document.write("Volume Tabung : "+Volume_Tabung); 
+  </script>
+  </body>
+  </html>s
+
+8 . if
+    penulisan: 
+    if (hour < 18) {
+    greeting = "Good day";
+    }
+  · if...else
+    penulisan:
+    if (hour < 18) {
+    greeting = "Good day";
+    } else {
+    greeting = "Good evening";
+    }
+  · if...else if....else
+    penulisan:
+    if (time < 10) {
+    greeting = "Good morning";
+    } else if (time < 20) {
+    greeting = "Good day";
+    } else {
+    greeting = "Good evening";
+    }
+    
+9.  salah satu bagian yang paling indah dari Javascript. 
+    Sebagai bahasa fungsional Javascript mengimplementasikan 
+    fungsi kelas pertama (first class function)
+
+10. Menampilkan sebuah form dengan tujuan untuk
+    inputkan nama depan, apabila itu tidak diisi 
+    dan langsung submit maka akan keluar alert dengan 
+    tulisan "name must be filled out", dan apabila 
+    menginputkan lebih dari 10 huruf maka akan keluar 
+    alert "max 10 huruf".
