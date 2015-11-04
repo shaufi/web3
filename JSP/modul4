@@ -1,0 +1,9 @@
+1. - Java Servlet adalah kelas yang didefinisikan di dalam bahasa pemrograman java dan digunakan untuk meningkatkan
+     kemampuan web server dalam menangani request dan response client. Meskipun servlet dapat menanggapi setiap jenis 
+     permintaan, mereka biasanya digunakan untuk memperpanjang aplikasi host oleh server Web
+   - Java Bean adalah komponen dalam java yang bersifat reusable dan digunakan untuk mengelola data flow antara 
+     aplikasi client atau applet dan komponen yang berjalan pada J2EE server atau antara komponen server dan database
+   - Java Server Page adalah teknologi web yang berbasis pemrograman Java, serta merupakan bagian teknologi J2EE 
+     (Java 2 Enterprise Edition). 
+
+2. 
