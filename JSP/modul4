@@ -23,4 +23,11 @@
    - Request dispatcher adalah class yang paling penting untuk "memasukkan" konten
      di sebuah request/response atau "meneruskan" sebuah request/response ke suatu resource.
      
-4. 
+4.  MVC memisahkan pengembangan aplikasi berdasarkan komponen utama yang membangun sebuah aplikasi 
+    seperti manipulasi data, user interface, dan menjadi bagian kontrol aplikasi
+    ada 3 jenis komponen yang membangun suatu MVC pattern dalam suatu aplikasi
+    View, merupakan bagian yang menangani presentation logic. View berfungsi untuk menerima dan merepresentasikan 
+    data kepada user. Bagian ini tidak memiliki akses langsung terhadap bagian model.
+    Model, biasanya berhubungan langsung dengan database untuk memanipulasi data (insert, update, delete, search),
+    menangani validasi dari bagian controller, namun tidak dapat berhubungan langsung dengan bagian view.
+    Controller berfungsi untuk menerima request dan data dari user kemudian menentukan apa yang akan diproses oleh aplikasi.
