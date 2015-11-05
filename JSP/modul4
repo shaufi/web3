@@ -6,4 +6,21 @@
    - Java Server Page adalah teknologi web yang berbasis pemrograman Java, serta merupakan bagian teknologi J2EE 
      (Java 2 Enterprise Edition). 
 
-2. 
+2. - Directive digunakan jsp untuk mengirimkan “pesan” ke jsp container. 
+     contoh : 
+   - Scripting digunakan untuk menggabungkan instruksi prmrograman bahasa java kedalam suatu web page.
+     contoh : <% !String hahahaha; int jml = 11 %>
+   - Action element fungsinya untuk transfer kontrol antar halaman, mendukung penggunaan applet java, dan terintegrasi dengan 
+     java server page dengan komponen Javabeans.
+     contoh :
+     <form action="a.jsp" method="post">
+	masukkan value: <input type="text" name="nomor"/>
+	<input type="submit" value="submit"/>
+     </form>
+     
+3. - Method doGet() dijalankan ketika client mengirimkan HTTP request dengan menggunakan method GET
+   - Method doPost() dijalankan ketika client mengirimkan HTTP response dengan menggunakan method POST
+   - Request dispatcher adalah class yang paling penting untuk "memasukkan" konten
+     di sebuah request/response atau "meneruskan" sebuah request/response ke suatu resource.
+     
+4. 
